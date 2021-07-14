@@ -2,8 +2,57 @@
   height: 958px;
   background: url("../image/banner.png") center center;
   background-size: cover;
-  color: $light;
 }
+.header {
+  ul {
+    :not(:last-child){ margin-right:16px;}
+  }
+}
+
 .about {
-  text-align: center;
+  padding: 56px 0;
+  ul {
+    padding-top: 28px;
+    :not(:last-child){ margin-bottom:28px;}
+    width: 384px;
+    margin: 0 auto;
+    border-top: 1px solid $dark;
+  }
+}
+
+.listStyle {
+  li:before {
+    content: "";
+    display: inline-block;
+    width: 22px;
+    height: 22px;
+    background-color: $primary;
+    border-radius: 50%;
+    margin-right: 16px;
+  }
+}
+
+.myBrand {
+  padding: 56px 0 160px 0;
+}
+
+.otherWorks {
+  padding: 56px 0 96px 0;
+  ul {
+    li {
+      margin-bottom: 48px;
+    }
+    a,img {
+      margin-bottom: 16px;
+    }
+  }
+}
+
+.footer {
+  padding: 64px 0 64px 0;
+  ul {
+    a {
+      color: $light;
+    }
+  }
 }
