@@ -1,0 +1,90 @@
+.header {
+    h1 {
+        border-bottom: 2px solid $dark;
+    }
+    img {
+        margin-top: $s5;
+        margin-bottom: $s5;
+    }
+}
+
+.title {
+   font-size: 32px;
+   line-height: 43px; 
+   padding-bottom: $s1;
+   border-bottom: 1px solid $dark;
+   margin-bottom: $s2;
+   font-weight: bold;
+   span {
+       font-size: 24px;
+       line-height: 32px;
+       color:$secondary;
+       margin-left: $s1;
+       vertical-align: baseline;
+   }
+}
+
+.content {
+    font-size: 24px;
+    line-height: 36px;
+}
+
+.full {
+    background:$primary;
+    color: $light;
+    padding-top: $s3;
+    padding-bottom: $s4;
+}
+
+.skills {
+    h2 {
+        text-align: center;
+        border-bottom: 1px solid $light;
+    }
+    span {
+        color: $light;
+    }
+    ul {
+        width: 20%;
+        :not(:last-child){ margin-bottom:$s2;}
+    }
+}
+.contentList {
+    padding-left: $s3;
+    border-left: 1px solid #96A9C4;
+}
+
+.work {
+    ul {
+        margin-left: $s3;
+        // :not(:last-child){ margin-bottom:$s3;}
+    }
+    img {
+        padding-top: 8px;
+        padding-bottom: 8px;
+    }
+}
+
+.footer {
+    h2 {
+        text-align: center;
+        border-bottom: 1px solid $light;
+    }
+    span {
+        color: $light;
+    }
+    .contact {
+        text-align: center;
+        margin-bottom: $s2;
+    }
+    a {
+        color: $light;
+        text-decoration: none;
+    }
+}
+
+.linkList {
+    display: flex;
+    justify-content: center;
+    :not(:first-child){ margin-left:$s3;}
+}

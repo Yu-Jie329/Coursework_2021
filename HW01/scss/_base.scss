@@ -1,0 +1,28 @@
+.container {
+    width: 1200px;
+}
+
+.m0-a {
+    margin: 0 auto;
+}
+
+h1 {
+   font-size: 80px;
+   line-height: 106px; 
+}
+
+.mb-24 {
+    margin-bottom: $s3;
+}
+.mb-72 {
+    margin-bottom: $s6;
+}
+
+h1,span {
+    font-family: 'Roboto', sans-serif;
+}
+
+h2,li,p {
+    font-family: 'Noto Sans', sans-serif;
+}
+
