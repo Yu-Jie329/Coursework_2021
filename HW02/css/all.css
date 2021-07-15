@@ -199,7 +199,7 @@ img　 {
 }
 
 body {
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Microsoft JhengHei", Roboto, "Helvetica Neue", Arial, sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Microsoft JhengHei", Roboto, "Helvetica Neue", Arial, sans-serif;
 }
 
 h1 {
@@ -226,7 +226,7 @@ a {
   margin-right: 16px;
 }
 
-.linkDeformed:hover {
+.linkGetBigger:hover {
   -webkit-transform: scale(1.2);
           transform: scale(1.2);
 }
