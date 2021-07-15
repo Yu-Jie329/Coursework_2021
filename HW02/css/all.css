@@ -226,6 +226,11 @@ a {
   margin-right: 16px;
 }
 
+.linkDeformed:hover {
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+}
+
 .about {
   padding: 56px 0;
 }
@@ -255,6 +260,14 @@ a {
   padding: 56px 0 160px 0;
 }
 
+.linkFadeOut a {
+  opacity: 1;
+}
+
+.linkFadeOut:hover {
+  opacity: 0.5;
+}
+
 .otherWorks {
   padding: 56px 0 96px 0;
 }
@@ -265,6 +278,12 @@ a {
 
 .otherWorks ul a, .otherWorks ul img {
   margin-bottom: 16px;
+  color: #000000;
+}
+
+.linkShadow:hover {
+  -webkit-box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.8);
+          box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.8);
 }
 
 .footer {
@@ -273,5 +292,9 @@ a {
 
 .footer ul a {
   color: #ffffff;
+}
+
+.footer ul a:hover {
+  color: #891818;
 }
 /*# sourceMappingURL=all.css.map */

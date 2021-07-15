@@ -1,0 +1,23 @@
+//連結特效
+//淡出
+@mixin linkFadeOut {
+    a {
+        opacity: 1;
+    }
+    &:hover {
+        opacity: 0.5;
+    }
+}
+//放大
+@mixin linkGetBigger {
+    &:hover {
+        transform: scale(1.2);
+    }
+}
+//陰影
+@mixin linkShadow {
+    &:hover {
+        box-shadow:10px 10px 5px rgba(0,0,0,0.8)
+    }
+}
+

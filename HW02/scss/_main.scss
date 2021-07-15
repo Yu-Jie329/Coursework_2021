@@ -8,7 +8,9 @@
     :not(:last-child){ margin-right:16px;}
   }
 }
-
+.linkDeformed {
+  @include linkGetBigger;
+}
 .about {
   padding: 56px 0;
   ul {
@@ -36,6 +38,10 @@
   padding: 56px 0 160px 0;
 }
 
+.linkFadeOut {
+  @include linkFadeOut;
+}
+
 .otherWorks {
   padding: 56px 0 96px 0;
   ul {
@@ -44,8 +50,13 @@
     }
     a,img {
       margin-bottom: 16px;
+      color: $dark;
     }
   }
+}
+
+.linkShadow {
+  @include linkShadow;
 }
 
 .footer {
@@ -54,5 +65,7 @@
     a {
       color: $light;
     }
+    a:hover {color: $primary;}
   }
 }
+
