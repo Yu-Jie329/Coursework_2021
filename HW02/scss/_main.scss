@@ -5,7 +5,9 @@
 }
 .header {
   ul {
-    :not(:last-child){ margin-right:16px;}
+    :not(:last-child) {
+      margin-right: 16px;
+    }
   }
 }
 .linkGetBigger {
@@ -15,7 +17,9 @@
   padding: 56px 0;
   ul {
     padding-top: 28px;
-    :not(:last-child){ margin-bottom:28px;}
+    :not(:last-child) {
+      margin-bottom: 28px;
+    }
     width: 384px;
     margin: 0 auto;
     border-top: 1px solid $dark;
@@ -48,7 +52,8 @@
     li {
       margin-bottom: 48px;
     }
-    a,img {
+    a,
+    img {
       margin-bottom: 16px;
       color: $dark;
     }
@@ -65,7 +70,8 @@
     a {
       color: $light;
     }
-    a:hover {color: $primary;}
+    a:hover {
+      color: $primary;
+    }
   }
 }
-

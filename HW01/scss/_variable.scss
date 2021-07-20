@@ -5,7 +5,12 @@ $s3:24px;
 $s4:36px;
 $s5:48px;
 $s6:72px;
-
+.mb-24 {
+    margin-bottom: $s3;
+}
+.mb-72 {
+    margin-bottom: $s6;
+}
 // color
 $dark:#000000;
 $light:#FFFFFF;
