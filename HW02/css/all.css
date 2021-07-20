@@ -89,7 +89,7 @@
           align-items: center;
 }
 
-.flex-nowrap {
+.flex-wrap {
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
 }
@@ -200,6 +200,7 @@ img　 {
 
 body {
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Microsoft JhengHei", Roboto, "Helvetica Neue", Arial, sans-serif;
+  font-style: italic;
 }
 
 h1 {
@@ -276,7 +277,8 @@ a {
   margin-bottom: 48px;
 }
 
-.otherWorks ul a, .otherWorks ul img {
+.otherWorks ul a,
+.otherWorks ul img {
   margin-bottom: 16px;
   color: #000000;
 }
