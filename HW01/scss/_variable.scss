@@ -1,19 +1,38 @@
 //spacing
-$s1:8px;
-$s2:16px;
-$s3:24px;
-$s4:36px;
-$s5:48px;
-$s6:72px;
+$s1: 8px;
+$s2: 16px;
+$s3: 24px;
+$s4: 36px;
+$s5: 48px;
+$s6: 72px;
+.mb-16 {
+  margin-bottom: 16px;
+}
 .mb-24 {
-    margin-bottom: $s3;
+  margin-bottom: $s3;
 }
 .mb-72 {
-    margin-bottom: $s6;
+  margin-bottom: $s6;
 }
 // color
-$dark:#000000;
-$light:#FFFFFF;
-$primary:#415165;
-$secondary:#A00404;
+$dark: #000000;
+$light: #ffffff;
+$primary: #a00404;
+$secondary: #415165;
 
+//text
+.font-m {
+  font-size: 20px;
+}
+.font-l {
+  font-size: 24px;
+}
+.text-notoSans {
+  font-family: "Noto Sans", sans-serif;
+}
+.text-center {
+  text-align: center;
+}
+.text-light {
+  color: $light;
+}
