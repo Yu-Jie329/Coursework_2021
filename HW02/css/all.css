@@ -236,18 +236,18 @@ a {
   padding: 56px 0;
 }
 
-.about ul {
+.about .listStyle {
   padding-top: 28px;
   width: 384px;
   margin: 0 auto;
   border-top: 1px solid #000000;
 }
 
-.about ul :not(:last-child) {
+.about .listStyle :not(:last-child) {
   margin-bottom: 28px;
 }
 
-.listStyle li:before {
+.about .listStyle li:before {
   content: "";
   display: inline-block;
   width: 22px;
